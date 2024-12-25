@@ -1,10 +1,10 @@
 #include <Arduino.h>
-#line 1 "C:\\Users\\user\\Documents\\GitHub\\laborad_ide\\main\\tempsketch\\tempsketch.ino"
-#line 1 "C:\\Users\\user\\Documents\\GitHub\\laborad_ide\\main\\tempsketch\\tempsketch.ino"
+#line 1 "C:\\Users\\user\\Documents\\GitHub\\LaboradIDE\\tempsketch\\tempsketch.ino"
+#line 1 "C:\\Users\\user\\Documents\\GitHub\\LaboradIDE\\tempsketch\\tempsketch.ino"
 void setup();
-#line 7 "C:\\Users\\user\\Documents\\GitHub\\laborad_ide\\main\\tempsketch\\tempsketch.ino"
+#line 7 "C:\\Users\\user\\Documents\\GitHub\\LaboradIDE\\tempsketch\\tempsketch.ino"
 void loop();
-#line 1 "C:\\Users\\user\\Documents\\GitHub\\laborad_ide\\main\\tempsketch\\tempsketch.ino"
+#line 1 "C:\\Users\\user\\Documents\\GitHub\\LaboradIDE\\tempsketch\\tempsketch.ino"
 void setup() {
     // Предустановка. Выполняется один раз
     Serial.begin(9600);
@@ -14,15 +14,14 @@ void setup() {
 void loop() {
     // Основной цикл программы
     if (Serial.available() > 0) {
-    	String nn = Serial.readString();
-        if (nn=="1") {
+        if (Serial.read()=="1") {
     	    digitalWrite(13,1);
-    	    delay(500);
-        }
-    	Serial.println("aoaoao");
+        } else {
+    	    digitalWrite(13,0);
+    	}
     }
-    digitalWrite(13,0);
 }
+
 
 
 

@@ -1,4 +1,4 @@
-C:\Users\user\Documents\GitHub\laborad_ide\main\tempbuild\core\Stream.cpp.o: \
+C:\Users\user\Documents\GitHub\LaboradIDE\tempbuild\core\Stream.cpp.o: \
  C:\Users\user\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino\Stream.cpp \
  C:\Users\user\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino\Arduino.h \
  C:\Users\user\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino\binary.h \

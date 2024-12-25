@@ -1,4 +1,4 @@
-C:\Users\user\Documents\GitHub\laborad_ide\main\tempbuild\core\wiring_shift.c.o: \
+C:\Users\user\Documents\GitHub\LaboradIDE\tempbuild\core\wiring_shift.c.o: \
  C:\Users\user\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino\wiring_shift.c \
  C:\Users\user\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino\wiring_private.h \
  C:\Users\user\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino\Arduino.h \

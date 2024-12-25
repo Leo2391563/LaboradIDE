@@ -7,15 +7,14 @@ void setup() {
 void loop() {
     // Основной цикл программы
     if (Serial.available() > 0) {
-    	String nn = Serial.readString();
-        if (nn=="1") {
+        if (Serial.read()=="1") {
     	    digitalWrite(13,1);
-    	    delay(500);
-        }
-    	Serial.println("aoaoao");
+        } else {
+    	    digitalWrite(13,0);
+    	}
     }
-    digitalWrite(13,0);
 }
+
 
 
 

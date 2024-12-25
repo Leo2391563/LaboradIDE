@@ -1,4 +1,4 @@
-C:\Users\user\Documents\GitHub\laborad_ide\main\tempbuild\core\Print.cpp.o: \
+C:\Users\user\Documents\GitHub\LaboradIDE\tempbuild\core\Print.cpp.o: \
  C:\Users\user\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino\Print.cpp \
  C:\Users\user\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino\Arduino.h \
  C:\Users\user\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino\binary.h \
